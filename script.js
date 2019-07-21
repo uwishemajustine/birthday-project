@@ -21,6 +21,6 @@ if(day==0 && gg=="Female") {
     alert("Your birthday is in monday and your name is Adwoa");
 }else if(day==2 && gg=="Female") {
     alert("Your birthday is in Tuesday and your name is Abenaa");
-}else if(day==2 && gg=="Female") {
-    
+}else if(day==3 && gg=="Female") {
+
 }
