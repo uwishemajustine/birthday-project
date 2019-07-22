@@ -1,26 +1,51 @@
-function numbers(){
-    var Days=[Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday];
-
-    var Months=[January, February, March, April, May, June, July, August, September, October, November, December];
-    var Males=[Kwasi, Kwadwo, Kwabena, Kwaku, Yaw, Kofi,  Kwame];
+function birthday(){
     
-    var Females=[Akosua, Adwoa, Abenaa, Akua, Yaa, Afua, Ama];
-    var dd=parseInt(document.getElementById("Day").value);
-    var mm=parseInt(document.getElementById["Month"]).value;
-    var yy=parseInt(document.getElementById["Year"]).value;
-    var gg=parseInt(document.getElementById["Gender"]).value;
-    var cc=Math.round((yy-1)/100+1);
-    var result=Math.round((((cc/4) -2*cc-1) +((5*yy/4)) + ((26*(mm+1)/10)) +dd) %7);
-    console.log(dd);
-document.getElementById("result").getElementById.HTML=Math.round(result);
-}
-console.log(day);
-if(day==0 && gg=="Female") {
-    alert("Your birthday is in sunday and your name is Akosua");
-}else if(day==1 && gg=="Female"){
-    alert("Your birthday is in monday and your name is Adwoa");
-}else if(day==2 && gg=="Female") {
-    alert("Your birthday is in Tuesday and your name is Abenaa");
-}else if(day==3 && gg=="Female") {
+    var dd=parseInt(document.getElementById("day").value);
+    var mm=parseInt(document.getElementById("month").value);
+    var yy=parseInt(document.getElementById("year").value);
+    var cc=parseInt((yy-1)/100+1);
+    var result=parseInt((((cc/4) -2*cc-1) +((5*yy/4)) + ((26*(mm+1)/10)) + dd) %7);
 
+alert(Math.round(result));
+var result=document.querySelector("input [name='gender']:checked").value;
+alert(gg);
+if(dd==0 && gg=="Female") {
+    alert("Your birthday is in sunday and your name is Akosua");
+}else if(dd==1 && gg=="Female"){
+    alert("Your birthday is in monday and your name is Adwoa");
+}else if(dd==2 && gg=="Female") {
+    alert("Your birthday is in Tuesday and your name is Abenaa");
+}else if(dd==3 && gg=="Female") {
+    alert("Your birthday is in wednesday and your name is Akua")
+
+}else if(dd==4 && gg=="Female") {
+    alert("Your birthday is in thursday and your name is Yaa");
+}else if(dd==5 && gg=="Female") {
+    alert("Your birthday is in friday and your name is Afua");  
+}else if(dd==6 && gg=="Female") {
+    alert("Your birthday is in saturday and your name is Ama");  
 }
+
+if(dd==0 && gg=="Male") {
+    alert("Your birthday is in sunday and your name is Kwasi");
+}else if(dd==1 && gg=="Male"){
+    alert("Your birthday is in monday and your name is Kwadwo");
+}else if(dd==2 && gg=="Male") {
+    alert("Your birthday is in Tuesday and your name is Kwabena");
+}else if(dd==3 && gg=="Male") {
+    alert("Your birthday is in wednesday and your name is Kwaku")
+
+}else if(dd==4 && gg=="Male") {
+    alert("Your birthday is in thursday and your name is Yaw");
+}else if(dd==5 && gg=="Male") {
+    alert("Your birthday is in friday and your name is Kofi");  
+}else if(dd==6 && gg=="Male") {
+    alert("Your birthday is in saturday and your name is Kwame");  
+}
+else{
+    alert("waaw");
+}
+}
+
+
+
