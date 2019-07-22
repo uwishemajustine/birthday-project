@@ -8,7 +8,7 @@ UWISHEMA justine
 <h1>Installing and Instructions</h1> 
 Google chrome,
 visual studio code,
-
+clone https://uwishemajustine.github.io/birthday-project/
 
 
 <h1>BDD</h1>
