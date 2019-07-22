@@ -6,21 +6,21 @@ This project is about how to put in your date of birth and see your name it was 
 UWISHEMA justine
 
 <h1>Installing and Instructions</h1> 
-Google chrome
-visual studio code
+Google chrome,
+visual studio code,
 
 
 
 <h1>BDD</h1>
-forms
-names
-functions 
+forms,
+names,
+functions, 
 
 <h1>Technologies used</h1>
-Html
-Javasript
-Css
-internet
+Html,
+Javasript,
+Css,
+internet,
 
 <h1>Contact information</h1>
 if you what to ask me some questions or other things related to this project contact me of email: alsenjastine90@gmail.com
