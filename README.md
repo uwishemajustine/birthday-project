@@ -7,3 +7,8 @@ UWISHEMA justine
 *Google chrome
 *visual studio code
 *Clone 
+## Technologies used
+*Html
+*Javasript
+*Css
+*internet
